@@ -1,0 +1,9 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  max-width: 600px;
+  min-height: fit-content;
+  background-color: #ffffff;
+}

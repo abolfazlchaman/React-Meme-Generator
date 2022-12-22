@@ -1,0 +1,18 @@
+
+.logo {
+  align-self: center;
+  width: 31px;
+  height: 26px;
+}
+header {
+  justify-content: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  min-height: 70px;
+  display: flex;
+}
+.heading {
+  display: flex;
+  align-self: center;
+  padding-left: 7px;
+  color: #ffffff;
+}

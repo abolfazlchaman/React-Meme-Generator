@@ -1,0 +1,67 @@
+.meme--image {
+  max-width: 100%;
+  border-radius: 2px;
+}
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+/* Container holding the image and the text */
+.image--container {
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 475px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.meme--text {
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: +0.5px;
+
+  font-family: "Impact";
+  color: #ffffff;
+  text-shadow: 1.8px 1.8px 0 #000, 1.8px -1.8px 0 #000, -1.8px 1.8px 0 #000,
+    -1.8px -1.8px 0 #000, 1.8px 0px 0 #000, 0px 1.8px 0 #000, -1.8px 0px 0 #000,
+    0px -1.8px 0 #000;
+}
+/* Top left text */
+.top {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+}
+
+/* Bottom right text */
+.bottom {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+@media only screen and (max-width: 600px) {
+  .input--container {
+    padding: 15px 0px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .meme--image,.image--container {
+    width: 95vw;
+  }
+  .image--container{
+    height: fit-content;
+  }
+  input {
+    width: 95vw;
+    padding: 5px;
+    margin: 10px 0px;
+  }
+  button {
+    width: 95vw;
+  }
+}

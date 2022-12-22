@@ -1,0 +1,24 @@
+.button--container {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 50px;
+}
+button {
+  cursor: pointer;
+  font-family: "Karla-regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+
+  width: 440px;
+  height: 40px;
+}
